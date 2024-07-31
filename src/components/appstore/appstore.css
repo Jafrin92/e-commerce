@@ -1,0 +1,54 @@
+#appstore {
+  background-color: #ffd670;
+  margin-bottom: 30px;
+}
+
+#appstore .appcontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+#appstore .appcontent .downloadapp {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#appstore .appcontent .downloadapp h2 {
+  padding: 10px;
+  max-width: 400px;
+}
+
+#appstore .appcontent .downloadapp .store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#appstore .appcontent .downloadapp .store a {
+  width: 100px;
+  height: 33px;
+  margin: 30px 5px;
+}
+
+#appstore .appcontent .downloadapp .store a img {
+  width: 100%;
+  height: 100%;
+}
+
+#appstore .appimage {
+  align-self: flex-end;
+  width: 50%;
+  margin: -4px;
+  padding: 0;
+}

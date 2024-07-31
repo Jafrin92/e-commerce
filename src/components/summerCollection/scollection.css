@@ -1,0 +1,7 @@
+#summerc .bg-banner {
+  width: 700px;
+  height: 212px;
+  background-color: var(--head-color);
+  margin: 0 auto;
+  margin-top: 65px;
+}

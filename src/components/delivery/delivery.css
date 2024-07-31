@@ -1,0 +1,38 @@
+#delivery {
+  margin: 20px 0;
+}
+
+#delivery .delivery-box {
+  max-width: 100%;
+  width: 40%;
+  min-height: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  margin: 1%;
+  padding: 10px 5px 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#delivery .delivery-box .delivery-icon {
+  width: 25%;
+  margin-right: 2%;
+}
+
+#delivery .delivery-box .delivery-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+#delivery .delivery-box .delivery-content b{
+  color: #ff6f71;
+}
+
+#delivery .delivery-box .delivery-content span{
+  font-size: var(--para-size);
+  color: var(--primary-color);
+}

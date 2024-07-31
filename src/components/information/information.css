@@ -1,0 +1,42 @@
+#information {
+  margin-bottom: 20px;
+}
+
+#information .infowrap {
+  margin-inline: 5%;
+}
+
+#information .infobox {
+  width: 320px;
+  padding: 10px 15px;
+  min-height: 130px;
+  background-color: #f5f5f5;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+#information .infobox .infohead {
+  padding: 10px 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#information .infobox .infohead h2 {
+  width: 90%;
+}
+
+#information .infobox .infohead .house {
+  width: 15%;
+  margin-left: 15px;
+}
+
+#information .infobox .infohead .house .infoicon {
+  width: 30px;
+  height: 30px;
+  color: rgb(240, 123, 82);
+}
+
+#information .infobox p {
+    padding-left: 10px;
+}

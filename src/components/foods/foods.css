@@ -1,0 +1,35 @@
+#foods .foods-bg {
+  height: 300px;
+  margin-top: 75px;
+  width: 100%;
+  background: var(--head-color);
+}
+
+#foods .foodProduct {
+  /*position: relative;
+    */
+  width: 200px;
+  float: left;
+  height: 250px;
+  padding: 5px;
+  box-sizing: content-box;
+  border-radius: 4px;
+  margin-bottom: 45px;
+}
+
+#foods .product:hover {
+  box-shadow: none;
+}
+
+#foods .foodProduct .productimgInner .productTittle .names {
+  height: 30px;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+#foods .foodProduct .names:hover {
+  text-decoration: underline;
+}

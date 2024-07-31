@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+a,
+p,
+span,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background: var(--hover-color);
+  color: var(--secondary-color);
+}
+
+:root {
+  --primary-color: #615e58;
+  --secondary-color: #000;
+  --para-color: #2d3a3f;
+  --btn-color: #ff686e;
+  --btnhov-color: #e04f54;
+  --head-color: #fdd670;
+  --hover-color: #eeb529;
+  --footerbg-color: #f3f3f3;
+  --mainhead-size: 40px;
+  --heading-size: 25px;
+  --subheading-size: 20px;
+  --footerhead-size: 18px;
+  --para-size: 16px;
+  --nav-size: 13px;
+  --font-blod: 700;
+  --font-semiblod: 600;
+  --font-medium: 500;
+  --font-regular: 400;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-size: var(--mainhead-size);
+  font-weight: var(--font-blod);
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-weight: var(--font-blod);
+  margin: 10px;
+  font-size: var(--heading-size);
+}
+
+h3 {
+  color: var(--para-color);
+  font-weight: var(--font-regular);
+  font-size: var(--subheading-size);
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+
+h4 {
+  line-height: 15px;
+  font-size: var(--footerhead-size);
+  font-weight: var(--font-blod);
+  color: var(--para-color);
+}
+
+p {
+  font-size: var(--para-size);
+  color: var(--para-color);
+  font-weight: var(--font-regular);
+  margin: 0 10px;
+}
+
+.commonbtn {
+  padding: 8px 15px 9px;
+  display: inline-block;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  background-color: var(--btn-color);
+  text-align: center;
+  width: 65%;
+  border-radius: 10px;
+  font-size: var(--para-size);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+
+.btn a:hover {
+  background-color: var(--btnhov-color);
+}
+
+section {
+  padding-left: 220px;
+}
+
+.commonHead h5 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #615e58;
+  font-weight: var(--font-blod);
+  padding: 25px 10px 0;
+}
+
+/* products */
+
+
+ .product {
+  /*position: relative;
+    */
+  width: 202px;
+  float: left;
+  height: 352px;
+  padding: 5px;
+  box-sizing: content-box;
+  border-radius: 4px;
+  margin-bottom: 45px;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+.product:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+ .product .productimgInner {
+  width: 200px;
+  height: 307px;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 6px;
+  transition: all linear 0.8s;
+  -webkit-transition: all linear 0.8s;
+  -moz-transition: all linear 0.8s;
+  -ms-transition: all linear 0.8s;
+  -o-transition: all linear 0.8s;
+}
+
+ .product .productimgInner .productImage {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all linear 0.8s;
+  -webkit-transition: all linear 0.8s;
+  -moz-transition: all linear 0.8s;
+  -ms-transition: all linear 0.8s;
+  -o-transition: all linear 0.8s;
+}
+
+.product .productimgInner .productTittle .names {
+  text-align: center;
+  color: #1a1a1a;
+  padding-top: 5px;
+  font-size: 14px;
+  height: 60px;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.product .productimgInner .productTittle .weights {
+  text-align: center;
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 1px;
+}
+
+.product .productimgInner .productTittle .price {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 18px;
+}
+
+.product .productimgInner .overlay {
+  display: none;
+  font-size: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 0;
+  color: #fff;
+  background-color: rgba(40, 40, 40, 0.75);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #ccc;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-bottom: 55px;
+  transition: all linear 0.8s;
+  -webkit-transition: all linear 0.8s;
+  -moz-transition: all linear 0.8s;
+  -ms-transition: all linear 0.8s;
+  -o-transition: all linear 0.8s;
+}
+
+.product .productimgInner .overlay .addtobag {
+  height: 100px;
+  width: 125px;
+  margin: 30px auto 0;
+  color: #fff;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.product .productimgInner .overlay .btnDetails {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25px;
+  line-height: 19px;
+  background: #fff;
+  text-align: center;
+  border: 0;
+  width: 100%;
+  color: #5e5e5e;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.product .productimgInner:hover .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+}
+
+.product .addbtn {
+  height: 37px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  padding: 6px 0;
+  text-align: center;
+  transition: all ease-in-out 0.15s;
+}
+
+.product .addbtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 1px 1px #c3c1c199;
+  border-color: #d0cfcf;
+}
+
+.product .addbtn span {
+  display: inline;
+  margin-bottom: 0;
+  padding-top: 9px;
+  transition: all ease-in-out 0.15s;
+  height: 35px;
+  color: #fe8280;
+  font-weight: 700;
+  font-size: 14px;
+}

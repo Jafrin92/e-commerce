@@ -1,0 +1,50 @@
+#banner {
+  background: var(--head-color);
+  padding: 75px 0 20px 250px;
+  width: 100%;
+}
+
+#banner .banner-contant {
+  width: 40%;
+}
+
+#banner .banner-contant .input {
+  padding-top: 30px;
+}
+
+#banner .banner-contant .input input {
+  padding: 4px 12px;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 6px 0 0 6px;
+  border: 0.5px solid #c8c8c8;
+  border-right: none;
+  position: relative;
+  top: 0;
+}
+
+#banner .banner-contant .input button {
+  border: 0.5px solid #c8c8c8;
+  border-left: none;
+  margin-left: 0;
+  background-color: #fff;
+  font-size: 25px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  position: absolute;
+}
+
+#banner .banner-contant .input .banner-search .sreach {
+  width: 28px;
+  fill: #7a7a7a;
+  stroke: #7a7a7a;
+  padding: 0 2px 0 6px;
+}
+
+.banner-img {
+  width: 50%;
+}

@@ -1,0 +1,29 @@
+#brand {
+  max-width: 100%;
+  margin: 25px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#brand .brand-heading {
+  display: table;
+  margin: 0 auto 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#brand .brand-wrap {
+  justify-content: center;
+  align-items: center;
+}
+
+#brand .brand-wrap picture {
+  width: 20%;
+}
+
+#brand .brand-wrap picture img {
+  width: 95%;
+  padding: 5px 15px;
+}
